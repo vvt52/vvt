@@ -94,13 +94,15 @@ a {
 
 
 .logo {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
 
-    color: white;
-    font-weight: 700;
-    font-size: 1.1rem;
-
-    max-width: 320px;
-
+.logo img {
+    width: 110px;
+    height: auto;
+    display: block;
 }
 
 
