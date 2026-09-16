@@ -47,7 +47,12 @@ img {
     max-width: 100%;
     display: block;
 }
-
+.logo img {
+    width: 110px;
+    max-width: 110px;
+    height: auto;
+    display: block;
+}
 
 a {
     text-decoration: none;
