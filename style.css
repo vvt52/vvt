@@ -143,30 +143,14 @@ nav a:hover {
 
 
 .hero {
-
     min-height: 100vh;
-
     position: relative;
-
     display: flex;
-
     align-items: center;
-
-    color:white;
-
-    background:
-
-    linear-gradient(
-        rgba(16,24,32,.75),
-        rgba(16,24,32,.85)
-    ),
-
-    url("images/hero.jpg");
-
+    color: white;
+    background: linear-gradient(135deg, #003B73 0%, #0057A8 50%, #101820 100%);
     background-size: cover;
-
     background-position: center;
-
 }
 
 
@@ -265,19 +249,13 @@ nav a:hover {
 
 
 .btn {
-
-    background:var(--blue);
-
-    color:white;
-
-    padding:14px 32px;
-
-    border-radius:50px;
-
-    font-weight:600;
-
-    transition:.3s;
-
+    background: #0057A8;
+    color: white;
+    padding: 14px 32px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: .3s;
+    display: inline-block;
 }
 
 
