@@ -7,14 +7,17 @@
 /* ---------- ZÁKLAD ---------- */
 
 :root {
+    --blue: #0057A8;
+    --blue-dark: #003B73;
+    --blue-light: #EAF3FB;
     --dark: #101820;
     --dark-soft: #17232d;
     --light: #ffffff;
     --text: #27313a;
     --gray: #6b7280;
-    --accent: #e85d04;
-    --accent-dark: #c94f00;
-    --background: #ffffff;
+    --accent: #0057A8;
+    --accent-dark: #003B73;
+    --background: #F6F8FB;
     --border: #e5e7eb;
 
     --shadow: 0 15px 40px rgba(0,0,0,0.08);
@@ -37,7 +40,7 @@ html {
 body {
     font-family: "Montserrat", sans-serif;
     color: var(--text);
-    background: #ffffff;
+    background-color: var(--background);
     line-height: 1.7;
 }
 
