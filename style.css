@@ -36,12 +36,10 @@ html {
 
 body {
     font-family: "Montserrat", sans-serif;
-}
     color: var(--text);
-    background: var(--background);
+    background: #ffffff;
     line-height: 1.7;
 }
-
 
 img {
     max-width: 100%;
