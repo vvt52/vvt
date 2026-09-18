@@ -257,7 +257,10 @@ nav a:hover {
     transition: .3s;
     display: inline-block;
 }
-
+.btn:hover {
+    background: #003B73;
+    transform: translateY(-2px);
+}
 
 .btn:hover {
 
@@ -306,17 +309,11 @@ nav a:hover {
 
 
 .section-heading span {
-
-    color:var(--accent);
-
-    text-transform:uppercase;
-
-    font-size:.8rem;
-
-    letter-spacing:2px;
-
-    font-weight:700;
-
+    color: #0057A8;
+    text-transform: uppercase;
+    font-size: .8rem;
+    letter-spacing: 2px;
+    font-weight: 700;
 }
 
 
